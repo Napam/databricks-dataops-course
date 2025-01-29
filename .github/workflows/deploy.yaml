@@ -17,7 +17,7 @@ jobs:
         uses: databricks/setup-cli@main
 
       - name: Deploy bundle
-        run: databricks repos update /Workspace/naphat@live.no/databricks-dataops-course --branch main
+        run: databricks repos update /Workspace/Users/naphat@live.no/databricks-dataops-course --branch main
         env:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
           DATABRICKS_HOST: dbc-639f4875-165d.cloud.databricks.com
