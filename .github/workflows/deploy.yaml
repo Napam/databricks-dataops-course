@@ -17,10 +17,10 @@ jobs:
         uses: databricks/setup-cli@main
 
       - name: Deploy bundle
-        run: databricks repos update /Repos/yourusername/databricks-dataops-course --branch main
+        run: databricks repos update /Repos/naphat@live.no/databricks-dataops-course --branch main
         env:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-          DATABRICKS_HOST: ${{secrets.DATABRICKS_HOST }}
+          DATABRICKS_HOST: dbc-639f4875-165d.cloud.databricks.com
 
   run:
     name: "Run one time job to update all jobs in datamesh"
