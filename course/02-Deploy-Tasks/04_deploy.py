@@ -47,7 +47,9 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC A job is basically a recipe for some proceedures, a tasklist basically.
+# MAGIC
+# MAGIC A job-run is an execution of a "recipe". You can execute the same jobs multiple times.
 
 # COMMAND ----------
 
@@ -60,4 +62,8 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC acme_transport_taxinyc_prep_dev_naphat_featgh141neovim_4c6799ab
+# MAGIC
+# MAGIC so the structure is
+# MAGIC
+# MAGIC [orgname].[department].[project].[flow].[env].[user].[jobid]

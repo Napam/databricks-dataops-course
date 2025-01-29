@@ -42,3 +42,7 @@
 # MAGIC 2. Run notebook: `revenue_by_tripmonth`
 # MAGIC 3. Run notebook: `revenue_by_borough`
 # MAGIC 4. Run notebook: `revenue_per_inhabitant`. It depends on 1 and 3 completing first.
+
+# COMMAND ----------
+
+

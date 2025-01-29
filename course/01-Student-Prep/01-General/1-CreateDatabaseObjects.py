@@ -48,4 +48,5 @@ spark.sql(f"CREATE DATABASE IF NOT EXISTS {revenue_db}")
 
 # COMMAND ----------
 
+tables = spark.sql("SHOW TABLES IN dev_naphat_featgh141neovim_4c6799ab_revenue")
 
