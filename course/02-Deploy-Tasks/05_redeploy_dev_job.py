@@ -56,4 +56,4 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Because there has been defined a GH Actions that runs "on_published"
+# MAGIC Because there was a new commit hash in the git HEAD i guess
