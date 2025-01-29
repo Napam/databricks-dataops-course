@@ -39,4 +39,4 @@ jobs:
         working-directory: .
         env:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-          DATABRICKS_HOST: ${{secrets.DATABRICKS_HOST }}
+          DATABRICKS_HOST: dbc-639f4875-165d.cloud.databricks.com
